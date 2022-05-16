@@ -11,12 +11,12 @@
 }
 
 #disney-food-guide-logo {
-    width: 60px;
-    height: 70px;
+    width: 50px;
+    height: 55px;
 }
 
 #main-nav {
-    background-color: rgba(255, 255, 255, 0.808);
+    background-color: rgba(255, 255, 255, 0.837);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,16 +33,19 @@ ul {
 
 li a {
     text-decoration: none;
-    color: black;
+    font-weight: 400;
+    color: rgb(52, 52, 52);
+    font-weight: 500;
 }
 
 li a:hover {
-    text-decoration: overline underline;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    transition: border-bottom 0.2s, color 0.2s;
+    color:rgb(255, 0, 0);
 }
 
 h1, h2, nav {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
 }
 
 h1 {
@@ -51,6 +54,8 @@ h1 {
 
 h1, h2 {
     padding-left: 30px;
+    color: rgb(52, 52, 52);
+    font-weight: 300;
 }
 
 #hero-header {
@@ -67,6 +72,6 @@ h1, h2 {
 }
 
 #hero-titles {
-    background-color: rgba(255, 255, 255, 0.391);
+    background-color: rgba(255, 255, 255, 0.352);
     padding: 30px 20px 30px 0;
 }
