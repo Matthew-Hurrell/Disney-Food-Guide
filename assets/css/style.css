@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#disney-script-logo {
+    width: 300px;
+}
+
+#disney-food-guide-logo {
+    width: 60px;
+    height: 70px;
+}
+
+#main-nav {
+    background-color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: overline underline;
+}
+
+h1, h2, nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2 {
+    padding-left: 30px;
+}
+
+#hero-header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+#main-header {
+    background-image: url("../images/disney-hero-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
