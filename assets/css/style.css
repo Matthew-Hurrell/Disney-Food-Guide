@@ -90,9 +90,10 @@ h1 {
 /* index.html welcome section */
 
 #welcome {
-    height: 80vh;
+    height: 65vh;
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 #welcome-text {
@@ -155,6 +156,7 @@ input:focus::placeholder {
 
   input::placeholder {
       font-style: italic;
+      color:rgb(143, 143, 143)
   }
 
   input {
