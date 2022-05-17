@@ -21,7 +21,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    border-radius: 15px;
 }
 
 ul {
@@ -39,9 +38,9 @@ li a {
 }
 
 li a:hover {
-    border-bottom: 1px solid rgb(255, 0, 0);
-    transition: border-bottom 0.2s, color 0.2s;
-    color:rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(255, 166, 0);
+    transition: border-bottom 0.2s, color 0.1s;
+    color:rgb(255, 166, 0);
 }
 
 h1, h2, nav {
@@ -65,13 +64,14 @@ h1, h2 {
 }
 
 #main-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.19)), url("../images/disney-hero-header.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.636)), url("../images/hero-header-template.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #hero-titles {
-    background-color: rgba(255, 255, 255, 0.352);
+    background-color: rgba(255, 166, 0, 0.501);
     padding: 30px 20px 30px 0;
+    border-radius: 10px;
 }
