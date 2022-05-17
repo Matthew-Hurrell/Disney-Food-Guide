@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(52, 52, 52);
 }
 
 #disney-script-logo {
@@ -51,9 +52,8 @@ h1 {
     font-size: 3rem;
 }
 
-h1, h2 {
-    padding-left: 30px;
-    color: rgb(52, 52, 52);
+#hero-titles > h1, #hero-titles > h2 {
+    padding-left: 20px;
     font-weight: 300;
 }
 
@@ -85,12 +85,43 @@ h1, h2 {
     top: 41vh;
 }
 
-
-
 /* index.html welcome section */
 
 #welcome {
     height: 80vh;
-    width: 100vw;
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
 }
+
+#welcome-text {
+    width: 45%;
+    padding-top: 70px;
+}
+
+#welcome-text > h2 {
+    padding-bottom: 30px;
+}
+
+/* Mailing List Form */
+
+#mailing-list {
+    width: 45%;
+    background-color: rgba(255, 166, 0, 0.501);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.mailing-list-form {
+    height: 80vh;
+    padding-top: 50px;
+}
+
+.mailing-list-form h2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#mailing-form-elements {
+    padding-left: 75px;
+}
+
