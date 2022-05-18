@@ -224,7 +224,6 @@ input:focus::placeholder {
 /* Restaurants Main */
 
 .restaurants-main-right {
-    background-color: #1877f2;
     height: 500px;
     display: flex;
     align-items: center;
@@ -236,11 +235,37 @@ input:focus::placeholder {
 }
 
 .right-info {
-    background-color: aliceblue;
     width: 600px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .right-info > h2 {
     text-align: center;
+}
+
+.restaurant-info-buttons {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.restaurant-info-buttons > form > input {
+    padding: 7px;
+    border: rgb(52, 52, 52) 1px solid;
+    border-radius: 5px;
+    background-color: rgb(243, 204, 100);
+    transition: background-color 0.5s;
+}
+
+.restaurant-info-buttons > form > input:hover {
+    cursor: pointer;
+    background-color: rgb(239, 182, 25);
+}
+
+.fa-solid {
+    color:rgb(239, 182, 25);
+    padding-right: 20px;
 }
