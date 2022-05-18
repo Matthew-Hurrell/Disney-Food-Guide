@@ -221,7 +221,7 @@ input:focus::placeholder {
     font-weight: 300;
 }
 
-/* Restaurants Main */
+/* Restaurants Main Right */
 
 .restaurants-main-right {
     height: 500px;
@@ -268,20 +268,28 @@ input:focus::placeholder {
 .fa-solid {
     color:rgb(239, 182, 25);
     font-size: x-large;
+    vertical-align: middle;
 }
 
 .fa-location-dot {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .fa-utensils {
-    padding-right: 13px;
+    padding-right: 27px;
 }
 
-.fa-dollar-sign {
-    padding-right: 19px;
+.fa-money-bill {
+    padding-right: 21px;
 }
 
 .fa-circle-info {
-    padding-right: 11px;
+    padding-right: 28px;
 }
+
+.right-info-paragraph {
+    display: flex;
+}
+
+/* Restaurants Main Left */
+
