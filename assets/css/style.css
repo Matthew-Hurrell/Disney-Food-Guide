@@ -267,5 +267,21 @@ input:focus::placeholder {
 
 .fa-solid {
     color:rgb(239, 182, 25);
-    padding-right: 20px;
+    font-size: x-large;
+}
+
+.fa-location-dot {
+    padding-right: 15px;
+}
+
+.fa-utensils {
+    padding-right: 13px;
+}
+
+.fa-dollar-sign {
+    padding-right: 19px;
+}
+
+.fa-circle-info {
+    padding-right: 11px;
 }
