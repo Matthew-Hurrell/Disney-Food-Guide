@@ -259,12 +259,13 @@ input:focus::placeholder {
     border: rgb(52, 52, 52) 1px solid;
     border-radius: 5px;
     background-color: rgb(243, 204, 100);
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .restaurant-info-buttons > form > input:hover {
     cursor: pointer;
-    background-color: rgb(239, 182, 25);
+    background-color: rgb(231, 176, 26);
+    color: white;
 }
 
 /* Restaurant Icons */
