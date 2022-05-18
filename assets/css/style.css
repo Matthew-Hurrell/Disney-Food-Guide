@@ -9,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(52, 52, 52);
+    width: 100%;
 }
 
 #disney-script-logo {
@@ -197,6 +198,8 @@ input:focus::placeholder {
 
 /* Restaurants */
 
+/* Header */
+
 #main-header-restaurants {
     background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.636)), url("../images/hero-header-template-cropped.png");
     background-repeat: no-repeat;
@@ -216,4 +219,28 @@ input:focus::placeholder {
 
 #restaurant-titles > h1 {
     font-weight: 300;
+}
+
+/* Restaurants Main */
+
+.restaurants-main-right {
+    background-color: #1877f2;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-photo > img {
+    width: 600px;
+}
+
+.right-info {
+    background-color: aliceblue;
+    width: 600px;
+    height: 350px;
+}
+
+.right-info > h2 {
+    text-align: center;
 }
