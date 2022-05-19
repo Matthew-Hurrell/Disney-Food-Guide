@@ -198,9 +198,9 @@ input:focus::placeholder {
 
 /* Restaurants */
 
-/* Header */
+/* Re-usable Header */
 
-#main-header-restaurants {
+.main-header-all-pages {
     background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.636)), url("../images/hero-header-template-cropped.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,19 +211,19 @@ input:focus::placeholder {
     align-items: center;
 }
 
-#restaurant-titles {
+.all-page-titles {
     background-color: rgba(239, 190, 183, 0.802);
     padding: 20px;
     border-radius: 10px;
 }
 
-#restaurant-titles > h1 {
+.all-page-titles > h1 {
     font-weight: 300;
 }
 
-/* Restaurants Main Right */
+/* Re-usable Main Right Section */
 
-.restaurants-main-right {
+.all-pages-main-right {
     height: 500px;
     display: flex;
     align-items: center;
@@ -298,9 +298,9 @@ input:focus::placeholder {
     display: flex;
 }
 
-/* Restaurants Main Left */
+/* Re-usable Main Left Section */
 
-.restaurants-main-left {
+.all-pages-main-left {
     height: 500px;
     display: flex;
     align-items: center;
@@ -322,4 +322,10 @@ input:focus::placeholder {
 
 .left-info > h2 {
     text-align: center;
+}
+
+/* Snacks Image Resizing */
+
+#carrot-cake-cookie > img {
+    width: 550px;
 }
