@@ -81,14 +81,14 @@ h1 {
 }
 
 #hero-titles {
-    background-color: rgba(243, 205, 100, 0.846);
+    background-color: rgba(239, 190, 183, 0.752);
     padding: 30px 20px 30px 0;
     border-radius: 10px;
     margin-left: 10px;
 }
 
 #scroll-box {
-    background-color: rgba(243, 205, 100, 0.846);
+    background-color: rgba(239, 190, 183, 0.78);
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -121,7 +121,7 @@ h1 {
 
 #mailing-list {
     width: 45%;
-    background-color: rgba(239, 190, 183, 0.379);
+    background-color: rgba(243, 205, 100, 0.288);
     border-radius: 40px;
     height: 50vh;
 }
@@ -176,7 +176,7 @@ input:focus::placeholder {
   /* Footer */
 
   .footer-list {
-      background-color: rgb(243, 204, 100);
+      background-color: rgba(239, 190, 183, 0.277);
       width: auto;
       height: 15vh;
       display: flex;
@@ -222,7 +222,7 @@ input:focus::placeholder {
 }
 
 .all-page-titles {
-    background-color: rgba(239, 190, 183, 0.802);
+    background-color: rgba(239, 190, 183, 0.752);
     padding: 20px;
     border-radius: 10px;
 }
@@ -305,6 +305,15 @@ input:focus::placeholder {
 #star {
     color:rgb(255, 215, 0);
     vertical-align: top;
+}
+
+#arrows {
+    color:rgba(177, 34, 41, 0.482);
+    vertical-align: top;
+}
+
+#heart {
+    color: rgba(232, 24, 24, 0.668);
 }
 
 /* Indentation of info paragraph */
@@ -399,9 +408,10 @@ input:focus::placeholder {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(243, 205, 100, 0.64);
+    background-color: rgba(255, 255, 255, 0.477);
     border-radius: 10px;
     padding: 10px;
+    border:rgb(52, 52, 52) dotted 1px;
 }
 
 textarea {
@@ -429,7 +439,7 @@ input[type="date"] {
   }
 
   #contact-form {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.574)), url(../images/disney-hero-header.jpg);
+     background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(239, 190, 183)), url(../images/disney-background-contact.jpg);
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -441,4 +451,8 @@ input[type="date"] {
 
   .fa-heart {
     vertical-align: top;
+  }
+
+  #footer-list-contact {
+      background-color: rgba(239, 190, 183);
   }
