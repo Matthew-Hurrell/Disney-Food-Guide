@@ -121,7 +121,7 @@ h1 {
 
 #mailing-list {
     width: 45%;
-    background-color: rgba(239, 190, 183, 0.562);
+    background-color: rgba(239, 190, 183, 0.379);
     border-radius: 40px;
     height: 50vh;
 }
@@ -153,12 +153,12 @@ h1 {
     border-radius: 10px;
     background-color: rgb(243, 205, 100);
     border:rgb(52, 52, 52) 1px solid;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .submit-button:hover {
     background-color: rgb(239, 182, 25);
-    color: rgb(0, 0, 0)
+    color: white;
 }
 
 input:focus::placeholder {
@@ -401,6 +401,7 @@ input:focus::placeholder {
     align-items: center;
     background-color: rgba(243, 205, 100, 0.64);
     border-radius: 10px;
+    padding: 10px;
 }
 
 textarea {
