@@ -357,5 +357,31 @@ input:focus::placeholder {
 
 #contact-main {
     height: 76vh;
-    background-color: #1877f2;
+}
+
+#contact-form-column-1 {
+    width: 40%;
+}
+
+#contact-form-column-2 {
+    width: 40%;
+}
+
+.contact-form-columns {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+form > h2 {
+    text-align: center;
+}
+
+.disney-experience-form {
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
