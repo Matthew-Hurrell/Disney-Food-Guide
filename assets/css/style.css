@@ -36,7 +36,6 @@ ul {
 
 #main-nav-list > li > a {
     text-decoration: none;
-    font-weight: 400;
     color: rgb(52, 52, 52);
     font-weight: 500;
     transition: border-bottom 0.5s;
@@ -134,7 +133,7 @@ h1 {
     border:rgb(52, 52, 52) 1px solid;
     border-radius: 10px;
     height: 25px;
-    margin: 5px 0 5px 0;
+    margin: 5px 0;
 }
 
 .submit-button {
@@ -156,7 +155,6 @@ input:focus::placeholder {
   }
 
   input::placeholder {
-      font-style: italic;
       color:rgb(143, 143, 143)
   }
 
@@ -360,28 +358,70 @@ input:focus::placeholder {
 }
 
 #contact-form-column-1 {
-    width: 40%;
+    width: 50%;
 }
 
 #contact-form-column-2 {
-    width: 40%;
+    width: 50%;
 }
 
 .contact-form-columns {
-    width: 50%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
 }
 
-form > h2 {
+.disney-experience-form > h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .disney-experience-form {
-    height: 76vh;
+    height: 45vh;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: rgba(243, 205, 100, 0.64);
+    border-radius: 10px;
 }
+
+textarea {
+    width: 90%;
+    border:rgb(52, 52, 52) 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact-form-column-2 > input {
+    margin: 5px 0;
+}
+
+#date {
+    border: rgb(52, 52, 52) 1px solid;
+    border-radius: 10px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+input[type="date"] { 
+    color:rgb(143, 143, 143);
+  }
+
+  #contact-form {
+     background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.574)), url(../images/disney-hero-header.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 76vh;
+  }
+
+  .fa-heart {
+    vertical-align: top;
+  }
