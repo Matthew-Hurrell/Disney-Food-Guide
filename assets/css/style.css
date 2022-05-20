@@ -1,4 +1,8 @@
+/* Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+/* Global */
 
 * {
     margin: 0;
@@ -11,6 +15,8 @@ body {
     color: rgb(52, 52, 52);
     width: 100%;
 }
+
+/* Nav */
 
 #disney-food-guide-logo {
     width: 50px;
@@ -44,6 +50,12 @@ ul {
 #main-nav-list > li > a:hover {
     border-bottom: 2px solid rgb(239, 190, 183);
 }
+
+.active {
+    border-bottom: 2px solid rgb(239, 190, 183);
+}
+
+/* index.html Header */
 
 h1 {
     font-size: 3rem;
@@ -87,10 +99,10 @@ h1 {
 /* index.html welcome section */
 
 #welcome {
-    height: 65vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    align-items: center;
 }
 
 #welcome-text {
@@ -111,7 +123,6 @@ h1 {
     width: 45%;
     background-color: rgba(239, 190, 183, 0.562);
     border-radius: 40px;
-    margin-top: 50px;
     height: 50vh;
 }
 
@@ -267,7 +278,7 @@ input:focus::placeholder {
     color: white;
 }
 
-/* Restaurant Icons */
+/* Icons */
 
 .fa-solid {
     color:rgb(239, 182, 25);
@@ -289,6 +300,11 @@ input:focus::placeholder {
 
 .fa-circle-info {
     padding-right: 28px;
+}
+
+#star {
+    color:rgb(255, 215, 0);
+    vertical-align: top;
 }
 
 /* Indentation of info paragraph */
