@@ -12,21 +12,18 @@ body {
     width: 100%;
 }
 
-#disney-script-logo {
-    width: 300px;
-}
-
 #disney-food-guide-logo {
     width: 50px;
     height: 55px;
+    padding-left: 15px;
 }
 
 #main-nav {
     background-color: rgba(255, 255, 255, 0.837);
+    height: 9vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
 }
 
 ul {
@@ -34,6 +31,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    padding-right: 15px;
 }
 
 #main-nav-list > li > a {
@@ -353,4 +351,11 @@ input:focus::placeholder {
 
 #the-orange-brrrd > img {
     width: 480px;
+}
+
+/* Contact */
+
+#contact-main {
+    height: 76vh;
+    background-color: #1877f2;
 }
