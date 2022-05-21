@@ -376,6 +376,10 @@ input:focus::placeholder {
     width: 480px;
 }
 
+#fuzzy-tauntaun {
+    width: 550px;
+}
+
 /* Contact */
 
 #contact-main {
