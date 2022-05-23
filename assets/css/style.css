@@ -211,6 +211,11 @@ input:focus::placeholder {
     text-decoration: none;
     color:rgb(222, 152, 142);
     font-weight: 700;
+    transition: color 0.5s;
+}
+
+.back-to-top-link:hover, #arrows-up:hover {
+    color:rgb(202, 87, 70);
 }
 
 /* Restaurants */
@@ -326,6 +331,7 @@ input:focus::placeholder {
 #arrows-up {
     color: rgba(177, 34, 41, 0.482);
     vertical-align: middle;
+    transition: color 0.5s;
 }
 
 /* Indentation of info paragraph */
