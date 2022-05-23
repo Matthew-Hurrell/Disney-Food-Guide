@@ -490,3 +490,101 @@ input[type="date"] {
   #footer-list-contact {
       background-color: rgba(239, 190, 183);
   }
+
+  /* Responsiveness */
+
+  /* Large Screens */
+
+  @media screen and (max-width: 1250px) {
+  
+    .left-photo img {
+        width: 45vw;
+    }
+    .right-info {
+        width: 45vw;
+    }
+
+    .right-photo img {
+        width: 45vw;
+    }
+    .left-info {
+        width: 45vw;
+    }
+
+    #carrot-cake-cookie > img {
+        width: 42vw;
+    }
+
+    #glimmer-and-shimmer-blondie > img {
+        width: 42vw;
+    }
+
+    #caseys-corn-dog-nuggets > img {
+        width: 42vw;
+    }
+
+    #tropical-serenade > img {
+        width: 40vw;
+    }
+
+    #the-orange-brrrd > img {
+        width: 38vw;
+    }
+
+    #fuzzy-tauntaun {
+        width: 42vw;
+    }
+
+}
+
+/* Medium Screens */
+
+@media screen and (max-width: 1050px) {
+
+    .all-pages-main-right {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-photo img, .right-photo img {
+        width: 70vw;
+    }
+
+    .right-info, .left-info {
+        width: 70vw;
+    }
+
+    .all-pages-main-left {
+        height: 800px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #carrot-cake-cookie > img {
+        width: 65vw;
+    }
+
+    #glimmer-and-shimmer-blondie > img {
+        width: 65vw;
+    }
+
+    #caseys-corn-dog-nuggets > img {
+        width: 65vw;
+    }
+
+    #tropical-serenade > img {
+        width: 62vw;
+    }
+
+    #the-orange-brrrd > img {
+        width: 58vw;
+    }
+
+    #fuzzy-tauntaun {
+        width: 65vw;
+    }
+
+}
