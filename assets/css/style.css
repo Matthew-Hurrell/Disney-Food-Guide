@@ -97,6 +97,18 @@ h1 {
     right: 10px;
 }
 
+#scroll-box > a {
+    text-decoration: none;
+    font-size: larger;
+    color:rgb(52, 52, 52);
+    font-weight: 500;
+    transition: color 0.5s;
+}
+
+#scroll-box > a:hover {
+    color:rgb(202, 87, 70);
+}
+
 /* index.html welcome section */
 
 #welcome {
@@ -320,8 +332,8 @@ input:focus::placeholder {
 }
 
 #arrows {
-    color:rgba(177, 34, 41, 0.482);
     vertical-align: top;
+    color:rgba(177, 34, 41, 0.482);
 }
 
 #heart {
