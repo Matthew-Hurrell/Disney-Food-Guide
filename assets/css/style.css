@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -206,6 +207,12 @@ input:focus::placeholder {
     color: #ff0000;
 }
 
+.back-to-top-link {
+    text-decoration: none;
+    color:rgb(222, 152, 142);
+    font-weight: 700;
+}
+
 /* Restaurants */
 
 /* Re-usable Header */
@@ -314,6 +321,11 @@ input:focus::placeholder {
 
 #heart {
     color: rgba(232, 24, 24, 0.668);
+}
+
+#arrows-up {
+    color: rgba(177, 34, 41, 0.482);
+    vertical-align: middle;
 }
 
 /* Indentation of info paragraph */
