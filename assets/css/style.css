@@ -628,4 +628,28 @@ input[type="date"] {
     .main-header-all-pages {
         padding-top: 8vh;
     }
+
+    .dropdown-button {
+        background-color: white;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        top: 8vh;
+    }
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30vh;
+        width: 100vw;
+        background-color: rgb(255, 236, 233);
+    }
+    
+    .dropdown-list > li > a {
+        text-decoration: none;
+        margin-left: 15px;
+        color: rgb(202, 87, 70);
+    }
 }
