@@ -603,7 +603,7 @@ input[type="date"] {
         display: none;
     }
 
-    #mobile-nav {
+    .mobile-nav {
         height: 8vh;
         display: flex;
         justify-content: space-between;
@@ -631,25 +631,29 @@ input[type="date"] {
 
     .dropdown-button {
         background-color: white;
+        cursor: pointer;
     }
 
     .dropdown-content {
         position: absolute;
         top: 8vh;
-    }
-
-    .dropdown-list {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 30vh;
         width: 100vw;
         background-color: rgb(255, 236, 233);
+        z-index: 1;
     }
     
-    .dropdown-list > li > a {
+    .dropdown-content > a {
         text-decoration: none;
         margin-left: 15px;
         color: rgb(202, 87, 70);
     }
+
+    .show {
+        display: none;
+    }
+
 }
