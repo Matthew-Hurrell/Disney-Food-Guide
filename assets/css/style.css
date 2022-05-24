@@ -19,7 +19,7 @@ body {
 
 /* Nav */
 
-#disney-food-guide-logo {
+.disney-food-guide-logo {
     width: 50px;
     height: 55px;
     padding-left: 15px;
@@ -107,6 +107,12 @@ h1 {
 
 #scroll-box > a:hover {
     color:rgb(202, 87, 70);
+}
+
+/* Mobile Nav */
+
+#mobile-nav {
+    display: none;
 }
 
 /* index.html welcome section */
@@ -587,4 +593,39 @@ input[type="date"] {
         width: 65vw;
     }
 
+}
+
+/* Smaller Screens */
+
+@media screen and (max-width: 750px) {
+
+    #main-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+    }
+
+    .disney-food-guide-logo {
+        height: 42px;
+        width: 38px;
+    }
+
+    .fa-bars {
+        padding-right: 15px;
+        color:rgb(222, 152, 142);
+    }
+
+    .main-header-all-pages {
+        padding-top: 8vh;
+    }
 }
