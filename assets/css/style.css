@@ -352,6 +352,15 @@ input:focus::placeholder {
     transition: color 0.5s;
 }
 
+.menu-icon-2 {
+    display: none;
+    margin-right: 15px;
+}
+
+#fa-xmark {
+    color: rgb(222, 152, 142);
+}
+
 /* Indentation of info paragraph */
 
 .right-info-paragraph {
@@ -664,6 +673,14 @@ input[type="date"] {
 
     .mobile-menu-input {
         display: none;
+    }
+
+    .mobile-menu-input:checked ~ .menu-icon {
+        display: none;
+    }
+
+    .mobile-menu-input:checked ~ .menu-icon-2 {
+        display: flex;
     }
 
 }
