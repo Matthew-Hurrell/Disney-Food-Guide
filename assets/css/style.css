@@ -111,7 +111,7 @@ h1 {
 
 /* Mobile Nav */
 
-#mobile-nav {
+.mobile-nav {
     display: none;
 }
 
@@ -547,6 +547,10 @@ input[type="date"] {
 
 @media screen and (max-width: 1050px) {
 
+    #main-nav-list {
+        width: 70%;
+    }
+
     .all-pages-main-right {
         height: 800px;
         display: flex;
@@ -620,18 +624,8 @@ input[type="date"] {
         width: 38px;
     }
 
-    .fa-bars {
-        padding-right: 15px;
-        color:rgb(222, 152, 142);
-    }
-
     .main-header-all-pages {
         padding-top: 8vh;
-    }
-
-    .dropdown-button {
-        background-color: white;
-        cursor: pointer;
     }
 
     .dropdown-content {
@@ -643,16 +637,32 @@ input[type="date"] {
         height: 30vh;
         width: 100vw;
         background-color: rgb(255, 236, 233);
-        z-index: 1;
+        overflow: hidden;
+        display: none;
     }
     
-    .dropdown-content > a {
+    .dropdown-content > li > a {
         text-decoration: none;
         margin-left: 15px;
         color: rgb(202, 87, 70);
     }
 
-    .show {
+    #mobile-nav-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        margin-right: 15px;
+        cursor: pointer;
+        color: rgb(222, 152, 142);
+        transition: color 0.5s;
+    }
+
+    .mobile-menu-input:checked ~ #mobile-nav-menu {
+        display: flex;
+    }
+
+    .mobile-menu-input {
         display: none;
     }
 
