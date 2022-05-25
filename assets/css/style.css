@@ -361,7 +361,7 @@ input:focus::placeholder {
     color: rgb(222, 152, 142);
 }
 
-/* Indentation of info paragraph */
+/* Indentation of paragraphs */
 
 .right-info-paragraph {
     display: flex;
@@ -706,11 +706,7 @@ input[type="date"] {
         font-size: 0.8rem;
     }
 
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    .fa-solid {
+    h2, .fa-solid {
         font-size: 1.2rem;
     }
 
@@ -725,3 +721,88 @@ input[type="date"] {
 
 /* Small tablet screens */
 
+@media screen and (max-width: 579px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+}
+
+
+/* Mobile Screens */
+
+@media screen and (max-width: 461px) {
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2, .fa-solid {
+        font-size: 1.1rem;
+    }
+
+    .all-pages-main-right, .all-pages-main-left {
+        height: 600px;
+    }
+
+    .right-info, .left-info {
+        height: 360px;
+        width: 80%;
+    }
+
+    .left-photo img, .right-photo img {
+        width: 80vw;
+    }
+
+    .fa-brands {
+        font-size: 1.5rem;
+    }
+
+    .back-to-top-link {
+        font-size: 1rem;
+    }
+
+    #carrot-cake-cookie > img {
+        width: 70vw;
+    }
+
+    #pineapple-dole-whip > img {
+        width: 70vw;
+    }
+
+    #caseys-corn-dog-nuggets > img {
+        width: 69vw;
+    }
+
+    #petit-cake > img {
+        width: 72vw;
+    }
+
+    #tropical-serenade > img {
+        width: 62vw;
+    }
+
+    #the-orange-brrrd > img {
+        width: 60vw;
+    }
+
+    #fuzzy-tauntaun, #peanut-butter-cold-brew, #soda-samples {
+        width: 69vw;
+    }
+
+    #viking-coffee, #night-blossom {
+        width: 74vw;
+    }
+
+    #heart-of-polynesia {
+        width: 73vw;
+    }
+
+    #jungle-juice {
+        width: 72vw;
+    }
+
+    
+
+}
