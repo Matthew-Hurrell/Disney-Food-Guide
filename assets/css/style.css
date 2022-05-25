@@ -803,6 +803,93 @@ input[type="date"] {
         width: 72vw;
     }
 
-    
+    #hero-header {
+        height: 45vh;
+    }
+
+    #scroll-box > a {
+        font-size: 1rem;
+    }
+
+    #welcome {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 920px;
+    }
+
+    #welcome-text > p {
+        font-size: 0.8rem;
+    }
+
+    #welcome-text {
+        width: 80vw;
+    }
+
+    #welcome-text > h2 {
+        font-weight: 500;
+    }
+
+    #mailing-list {
+        width: 80vw;
+        border-radius: 10px;
+    }
+
+    .mailing-list-form {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 48vh;
+    }
+
+    .mailing-list-form > h2 {
+        padding-bottom: 0; 
+    }
+
+    #mailing-form-elements {
+        padding-left: 0;
+    }
+
+    .text-input {
+        width: 65vw;
+    }
+
+    #mailing-form-elements > label {
+        font-size: 0.8rem;
+    }
+
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .submit-button {
+        font-size: 0.8rem;
+    }
+
+    #main-header {
+        margin-top: 8vh;
+    }
+
+    #hero-header {
+        width: 100vw;
+    }
+
+    #hero-titles {
+        width: 90vw;
+        padding: 8px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75px;
+    }
+
+    #hero-titles > h1, #hero-titles > h2 {
+        font-weight: 500;
+    }
+
+    #scroll-box {
+        display: none;
+    }
 
 }
