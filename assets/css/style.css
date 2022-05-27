@@ -451,8 +451,8 @@ input:focus::placeholder {
 }
 
 .disney-experience-form {
-    height: 45vh;
-    width: 40vw;
+    height: 410px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -506,7 +506,7 @@ input[type="date"] {
       background-color: rgba(239, 190, 183);
   }
 
-  #contact-phone {
+  #submit-phone {
       display: none;
   }
 
@@ -731,6 +731,55 @@ input[type="date"] {
         font-size: 1.8rem;
     }
 
+    #contact-main {
+        margin-top: 8vh;
+        height: 900px;
+    }
+
+    #contact-form {
+        height: 900px;
+    }
+
+    .disney-experience-form {
+        width: 300px;
+        height: 680px;
+    }
+
+    .contact-form-columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submit {
+        display: none;
+    }
+
+    #contact-form-column-2 > #submit-phone {
+        margin-top: 15px;
+    }
+
+    #contact-form-column-1, #contact-form-column-2 {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    #contact-form-column-1 > input, #contact-form-column-2 > input {
+        margin-bottom: 15px;
+    }
+
+    #contact-form-column-1 > .text-input, #contact-form-column-2 > .text-input {
+        width: 250px;
+    }
+
+    #submit-phone {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
 }
 
 
@@ -898,48 +947,6 @@ input[type="date"] {
 
     #mailing-list {
         height: 330px;
-    }
-
-    /* Contact page */
-
-    #contact-main {
-        margin-top: 8vh;
-        height: 900px;
-    }
-
-    #contact-form {
-        height: 900px;
-    }
-
-    .disney-experience-form {
-        width: 300px;
-        height: 680px;
-    }
-
-    .contact-form-columns {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #submit {
-        display: none;
-    }
-
-    #contact-form-column-2 > #submit-phone {
-        margin-top: 15px;
-    }
-
-    #contact-form-column-1, #contact-form-column-2 {
-        width: 100%;
-        font-size: 0.8rem;
-    }
-
-    #contact-form-column-1 > input, #contact-form-column-2 > input {
-        margin-bottom: 15px;
-    }
-
-    #contact-form-column-1 > .text-input, #contact-form-column-2 > .text-input {
-        width: 250px;
     }
 
 }
