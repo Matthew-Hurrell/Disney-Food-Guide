@@ -118,7 +118,7 @@ h1 {
 /* index.html welcome section */
 
 #welcome {
-    height: 70vh;
+    height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -142,7 +142,7 @@ h1 {
     width: 45%;
     background-color: rgba(243, 205, 100, 0.288);
     border-radius: 40px;
-    height: 50vh;
+    height: 410px;
 }
 
 .mailing-list-form {
@@ -510,6 +510,30 @@ input[type="date"] {
       display: none;
   }
 
+  /* Thanks.html */
+
+  #thanks-main {
+      height: 91vh;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(239, 190, 183)), url(../images/disney-background-contact.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #thanks {
+    background-color: rgba(255, 255, 255, 0.477);
+    border-radius: 10px;
+    padding: 10px;
+    border:rgb(52, 52, 52) dotted 1px;
+  }
+
+  #smiley {
+      vertical-align: middle;
+  }
+
   /* Responsiveness */
 
   /* Large Screens */
@@ -610,6 +634,14 @@ input[type="date"] {
         width: 65vw;
     }
 
+    #welcome {
+        height: 600px;
+    }
+
+    #mailing-list, #mailing-list-form {
+        height: 380px;
+    }
+
 }
 
 /* Medium Small Screens */
@@ -666,11 +698,28 @@ input[type="date"] {
         display: flex;
         justify-content: center;
     }
+
+    #main-header, #hero-header {
+        height: 700px;
+    }
+
+    #scroll-box {
+        display: none;
+    }
 }
 
 /* Smaller Screens */
 
 @media screen and (max-width: 757px) {
+
+    #thanks-main {
+        margin-top: 8vh;
+        height: 92vh;
+    }
+
+    #thanks {
+        text-align: center;
+    }
 
     #scroll-box {
         display: none;
@@ -902,6 +951,10 @@ input[type="date"] {
         height: 950px;
     }
 
+    #hero-titles {
+      width: 92%;
+    }
+
 }
 
 
@@ -980,6 +1033,10 @@ input[type="date"] {
 
     #hero-header {
         height: 45vh;
+    }
+
+    #main-header {
+        height: 420px;
     }
 
     #welcome {
