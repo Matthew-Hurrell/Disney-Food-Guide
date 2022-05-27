@@ -620,11 +620,68 @@ input[type="date"] {
         height: 35vh;
     }
 
+    #welcome {
+        height: 700px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #welcome-text > h2, .mailing-list-form > h2 {
+        font-weight: 400;
+    }
+
+    .mailing-list-form > h2 {
+        font-size: 1.3rem;
+    }
+
+    #mailing-list {
+        height: 400px;
+    }
+
+    .mailing-list-form {
+        height: 400px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mailing-form-elements {
+        padding-left: 0;
+    }
+
+    #mailing-form-elements > .text-input {
+        width: 230px;
+    }
+
+    #scroll-box {
+        width: 162px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Smaller Screens */
 
 @media screen and (max-width: 757px) {
+
+    #scroll-box {
+        display: none;
+    }
+
+    #main-header {
+        margin-top: 8vh;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
 
     #main-nav {
         display: none;
@@ -645,6 +702,65 @@ input[type="date"] {
     .disney-food-guide-logo {
         height: 42px;
         width: 38px;
+    }
+
+    #welcome {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 850px;
+    }
+
+    #welcome-text > p {
+        font-size: 0.9rem;
+    }
+
+    #welcome-text {
+        width: 80vw;
+    }
+
+    #welcome-text > h2 {
+        font-weight: 600;
+    }
+
+    #mailing-list {
+        width: 70vw;
+        border-radius: 10px;
+        height: 370px;
+    }
+
+    .mailing-list-form {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 350px;
+    }
+
+    .mailing-list-form > h2 {
+        padding-bottom: 0; 
+        font-weight: 500;
+    }
+
+    #mailing-form-elements {
+        padding-left: 0;
+        width: 80%;
+    }
+
+    #mailing-form-elements > .text-input {
+        width: 80%;
+    }
+
+    #mailing-form-elements > label {
+        font-size: 0.9rem;
+    }
+
+    input::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        font-size: 0.9rem;
     }
 
     .main-header-all-pages {
@@ -721,6 +837,8 @@ input[type="date"] {
     .right-info, .left-info {
         height: 320px;
     }
+
+
 }
 
 /* Small tablet screens */
@@ -778,6 +896,10 @@ input[type="date"] {
 
     input::placeholder {
         font-size: 0.8rem;
+    }
+
+    #welcome {
+        height: 950px;
     }
 
 }
@@ -860,10 +982,6 @@ input[type="date"] {
         height: 45vh;
     }
 
-    #scroll-box > a {
-        font-size: 1rem;
-    }
-
     #welcome {
         flex-direction: column;
         justify-content: space-around;
@@ -876,10 +994,6 @@ input[type="date"] {
 
     #welcome-text {
         width: 80vw;
-    }
-
-    #welcome-text > h2 {
-        font-weight: 500;
     }
 
     #mailing-list {
@@ -898,6 +1012,8 @@ input[type="date"] {
 
     .mailing-list-form > h2 {
         padding-bottom: 0; 
+        font-weight: 500;
+        font-size: 1.1rem;
     }
 
     #mailing-form-elements {
@@ -939,10 +1055,6 @@ input[type="date"] {
 
     #hero-titles > h1, #hero-titles > h2 {
         font-weight: 500;
-    }
-
-    #scroll-box {
-        display: none;
     }
 
     #mailing-list {
