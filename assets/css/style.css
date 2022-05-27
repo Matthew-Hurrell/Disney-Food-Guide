@@ -506,6 +506,10 @@ input[type="date"] {
       background-color: rgba(239, 190, 183);
   }
 
+  #contact-phone {
+      display: none;
+  }
+
   /* Responsiveness */
 
   /* Large Screens */
@@ -760,7 +764,7 @@ input[type="date"] {
     }
 
     .back-to-top-link {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #carrot-cake-cookie > img {
@@ -814,7 +818,7 @@ input[type="date"] {
     #welcome {
         flex-direction: column;
         justify-content: space-around;
-        height: 920px;
+        height: 860px;
     }
 
     #welcome-text > p {
@@ -840,7 +844,7 @@ input[type="date"] {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 48vh;
+        height: 330px;
     }
 
     .mailing-list-form > h2 {
@@ -890,6 +894,56 @@ input[type="date"] {
 
     #scroll-box {
         display: none;
+    }
+
+    .menu-icon, .menu-icon-2 {
+        margin-right: 15px;
+    }
+
+    #mailing-list {
+        height: 330px;
+    }
+
+    /* Contact page */
+
+    #contact-main {
+        margin-top: 8vh;
+        height: 900px;
+    }
+
+    #contact-form {
+        height: 900px;
+    }
+
+    .disney-experience-form {
+        width: 300px;
+        height: 680px;
+    }
+
+    .contact-form-columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submit {
+        display: none;
+    }
+
+    #contact-form-column-2 > #submit-phone {
+        margin-top: 15px;
+    }
+
+    #contact-form-column-1, #contact-form-column-2 {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    #contact-form-column-1 > input, #contact-form-column-2 > input {
+        margin-bottom: 15px;
+    }
+
+    #contact-form-column-1 > .text-input, #contact-form-column-2 > .text-input {
+        width: 250px;
     }
 
 }
