@@ -1042,7 +1042,7 @@ input[type="date"] {
     #welcome {
         flex-direction: column;
         justify-content: space-around;
-        height: 860px;
+        height: 900px;
     }
 
     #welcome-text > p {
@@ -1051,11 +1051,13 @@ input[type="date"] {
 
     #welcome-text {
         width: 80vw;
+        margin-top: 20px;
     }
 
     #mailing-list {
         width: 80vw;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
 
     .mailing-list-form {
@@ -1116,6 +1118,44 @@ input[type="date"] {
 
     #mailing-list {
         height: 330px;
+    }
+
+}
+
+/* Smallest Screens */
+
+@media screen and (max-width: 343px) {
+
+    #welcome {
+        height: 1000px;
+    }
+
+    .mobile-nav {
+        height: 55px;
+    }
+
+    #main-header {
+        margin-top: 55px;
+    }
+
+    #mailing-list {
+        margin-top: 15px;
+    }
+
+    #hero-titles {
+        height: 100px;
+    }
+
+    .right-info, .left-info {
+        height: 430px;
+    }
+
+    .disney-experience-form {
+        width: 90vw;
+    }
+
+    #contact-form-column-1 > .text-input {
+        width: 90%;
     }
 
 }
