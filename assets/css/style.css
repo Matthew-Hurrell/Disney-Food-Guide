@@ -1122,12 +1122,12 @@ input[type="date"] {
 
 }
 
-/* Smallest Screens */
+/* Smaller Mobile Screens */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
 
     #welcome {
-        height: 1000px;
+        height: 950px;
     }
 
     .mobile-nav {
@@ -1156,6 +1156,14 @@ input[type="date"] {
 
     #contact-form-column-1 > .text-input {
         width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    #welcome {
+        height: 1030px;
     }
 
 }
