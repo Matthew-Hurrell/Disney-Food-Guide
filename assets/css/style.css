@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
-/* Global */
+/* Font & CSS Properties Across All Pages */
 
 * {
     margin: 0;
@@ -115,7 +115,7 @@ h1 {
     display: none;
 }
 
-/* index.html welcome section */
+/* index.html Welcome Section */
 
 #welcome {
     height: 600px;
@@ -184,15 +184,15 @@ input:focus::placeholder {
     color: transparent;
   }
 
-  input::placeholder {
-      color:rgb(143, 143, 143)
-  }
+input::placeholder {
+    color:rgb(143, 143, 143)
+}
 
-  input {
-     padding-left: 10px; 
-  }
+input {
+    padding-left: 10px; 
+}
 
-  /* Footer */
+/* Footer */
 
 .footer-list {
     background-color: rgba(239, 190, 183, 0.277);
@@ -236,7 +236,7 @@ input:focus::placeholder {
     color:rgb(202, 87, 70);
 }
 
-/* Restaurants */
+/* Other Pages */
 
 /* Re-usable Header */
 
@@ -407,7 +407,7 @@ input:focus::placeholder {
     width: 550px;
 }
 
-/* Drinks */
+/* Drinks Image Resizing */
 
 .fa-martini-glass {
     padding-right: 26px;
@@ -425,7 +425,7 @@ input:focus::placeholder {
     width: 550px;
 }
 
-/* Contact */
+/* Contact.html */
 
 #contact-main {
     height: 91vh;
@@ -487,15 +487,15 @@ input[type="date"] {
     color:rgb(143, 143, 143);
   }
 
-  #contact-form {
-     background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(239, 190, 183)), url(../images/disney-background-contact.jpg);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 91vh;
+#contact-form {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(255, 255, 255, 0.252), rgba(239, 190, 183)), url(../images/disney-background-contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
   }
 
   .fa-heart {
@@ -644,7 +644,7 @@ input[type="date"] {
 
 }
 
-/* Medium Small Screens */
+/* Medium / Small Screens */
 
 @media screen and (max-width: 950px) {
 
