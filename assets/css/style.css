@@ -809,7 +809,7 @@ input[type="date"] {
     }
 
     .submit-button {
-        font-size: 0.9rem;
+        color: rgb(52, 52, 52);
     }
 
     .main-header-all-pages {
@@ -971,11 +971,11 @@ input[type="date"] {
     }
 
     .all-pages-main-right, .all-pages-main-left {
-        height: 600px;
+        height: 650px;
     }
 
     .right-info, .left-info {
-        height: 360px;
+        height: 350px;
         width: 80%;
     }
 
@@ -1093,6 +1093,7 @@ input[type="date"] {
 
     .submit-button {
         font-size: 0.8rem;
+        color: rgb(52, 52, 52);
     }
 
     #main-header {
@@ -1147,7 +1148,7 @@ input[type="date"] {
     }
 
     .right-info, .left-info {
-        height: 430px;
+        height: 400px;
     }
 
     .disney-experience-form {
