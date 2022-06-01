@@ -872,7 +872,7 @@ input[type="date"] {
     }
 
     .right-info > p, .left-info > p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     h2, .fa-solid {
@@ -880,7 +880,7 @@ input[type="date"] {
     }
 
     .restaurant-info-buttons > form > input { 
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .right-info, .left-info {
@@ -927,7 +927,7 @@ input[type="date"] {
 
     #contact-form-column-1, #contact-form-column-2 {
         width: 100%;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     #contact-form-column-1 > input, #contact-form-column-2 > input {
@@ -940,11 +940,11 @@ input[type="date"] {
 
     #submit-phone {
         display: block;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     input::placeholder {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     #welcome {
@@ -1046,7 +1046,7 @@ input[type="date"] {
     }
 
     #welcome-text > p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     #welcome-text {
@@ -1084,16 +1084,20 @@ input[type="date"] {
     }
 
     #mailing-form-elements > label {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     input::placeholder {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .submit-button {
-        font-size: 0.8rem;
-        color: rgb(52, 52, 52);
+        font-size: 0.9rem;
+        color:rgb(52, 52, 52);
+        padding: 8px;
+        border-radius: 10px;
+        background-color: rgb(243, 205, 100);
+        border:rgb(52, 52, 52) 1px solid;
     }
 
     #main-header {
@@ -1121,6 +1125,22 @@ input[type="date"] {
         height: 330px;
     }
 
+    .restaurant-info-buttons > form > input:hover {
+        color:rgb(52, 52, 52);
+        padding: 8px;
+        border-radius: 10px;
+        background-color: rgb(243, 205, 100);
+        border:rgb(52, 52, 52) 1px solid;
+    }
+
+    .restaurant-info-buttons > form > input {
+        color:rgb(52, 52, 52);
+        padding: 8px;
+        border-radius: 10px;
+        background-color: rgb(243, 205, 100);
+        border:rgb(52, 52, 52) 1px solid;
+    }
+
 }
 
 /* Smaller Mobile Screens */
@@ -1128,7 +1148,7 @@ input[type="date"] {
 @media screen and (max-width: 380px) {
 
     #welcome {
-        height: 950px;
+        height: 1000px;
     }
 
     .mobile-nav {
@@ -1164,7 +1184,7 @@ input[type="date"] {
 @media screen and (max-width: 350px) {
 
     #welcome {
-        height: 1030px;
+        height: 1050px;
     }
 
 }
