@@ -27,14 +27,14 @@ Link to the live site - <a href="https://matthew-hurrell.github.io/Disney-Food-G
     * [**Restaurants**](<#restaurants>)
          * [Header](<#restaurant-header>)
          * [Restaurant Listings](<#restaurant-listings>)
-         * [Footer](<#footer>)
+         * [Footer](<#restaurant-footer>)
     * [**Snacks**](<#snacks>)
          * [Header](<#snacks-header>)
          * [Snack Listings](<#snack-listings>)
     * [**Drinks**](<#drinks>)
          * [Header](<#drinks-header>)
          * [Drink Listings](<#drink-listings>)
-    * [**Contact**](<#contact-us>)
+    * [**Contact**](<#contact>)
          * [Contact Background](<#contact-background>)
          * [Contact Form](<#contact-form>)
     * [**Form Submission Confirmation**](<#form-submission-confirmation>)
@@ -106,7 +106,19 @@ Disney Food Guide is designed to make accessing information as easy for the user
 
 ### Home
 
+Link to live site - [Home](https://matthew-hurrell.github.io/Disney-Food-Guide/index.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/index.html)
+
 * ### Navigation Menu 
+
+* Main Nav
+
+The main navigation bar is present at the top of all pages of the site. It features a Disney Food Guide logo on the far left which is a clickable link to the home page. Spanning across from the right of the nav bar is the links to the other pages of the website. When a user hovers over a link to a page a pink underline appears on the bottom. When a user is on one of the pages that underline continually displays beneath whichever page they are on. The page links are evenly spaced using flexbox and respond to changes of screen size. When the screen size goes below 757px this navigation bar is hidden and is replaced with a mobile nav bar.
+
+* Mobile Nav
+
+The mobile nav bar is hidden from view on all screen sizes above 757px. On smaller screens it is visible. The mobile menu is sticky and follows the screen as the user scrolls down. This nav features the same clickable Disney Food Guide Logo on the left side of the bar. On the right side there is a menu icon button that displays a drop down menu of the page links when clicked. The menu icon is removed from display when clicked and is replaced by an icon of a cross to indicate a way of closing the menu. When the cross icon is clicked the drop down menu disappears. The drop down menu doesn't interfere with the information displayed below it, it simply appears ontop until closed with the cross icon. This menu can be accessed anywhere on the page.
 
 * ### Main Header
 
@@ -118,13 +130,21 @@ Disney Food Guide is designed to make accessing information as easy for the user
 
 ### Restaurants
 
+Link to live site - [Restaurants](https://matthew-hurrell.github.io/Disney-Food-Guide/restaurants.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/restaurants.html)
+
 * ### Restaurant Header
 
 * ### Restaurant Listings
 
-* ### Footer
+* ### Restaurant Footer
 
 ### Snacks
+
+Link to live site - [Snacks](https://matthew-hurrell.github.io/Disney-Food-Guide/snacks.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/snacks.html)
 
 * ### Snacks Header
 
@@ -132,17 +152,29 @@ Disney Food Guide is designed to make accessing information as easy for the user
 
 ### Drinks
 
+Link to live site - [Drinks](https://matthew-hurrell.github.io/Disney-Food-Guide/drinks.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/drinks.html)
+
 * ### Drinks Header
 
 * ### Drink Listings
 
 ### Contact
 
+Link to live site - [Contact](https://matthew-hurrell.github.io/Disney-Food-Guide/contact.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/contact.html)
+
 * ### Contact Background
 
 * ### Contact Form
 
 ### Form Submission Confirmation
+
+Link to live site - [Thanks](https://matthew-hurrell.github.io/Disney-Food-Guide/thanks.html)
+
+Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/thanks.html)
 
 ### Future Features
 
