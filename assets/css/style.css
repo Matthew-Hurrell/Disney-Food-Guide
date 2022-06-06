@@ -1105,6 +1105,16 @@ input[type="date"] {
         border:rgb(52, 52, 52) 1px solid;
     }
 
+    .submit-button:hover {
+        font-size: 0.9rem;
+        color:rgb(52, 52, 52);
+        padding: 8px;
+        border-radius: 10px;
+        background-color: rgb(243, 205, 100);
+        border:rgb(52, 52, 52) 1px solid;
+        font-weight: 300;
+    }
+
     #main-header {
         margin-top: 8vh;
     }
