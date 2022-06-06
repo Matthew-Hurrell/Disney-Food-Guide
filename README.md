@@ -1,108 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **_Disney Food Guide_**
 
-Welcome Matthew Hobbs-Hurrell,
+Disney Food Guide is an online web guide which provides easy to follow information about the top rated food, snacks and restaurants in Disney World in 2022. 
+The sites intended target audience is anyone interested in visiting Disney World or finding out more information. This could be anyone teen and above, male or female. However the majority of the target audience will most likely be young adults or middle aged parents with kids. 
+The website is also designed to provide easy navigation to book a table, view the offical menu or find the location of a specific item / restaurant. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Link to the live site - <a href="https://matthew-hurrell.github.io/Disney-Food-Guide/" target="_blank" rel="noopener">Disney Food Guide</a>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Disney Food Guide Responsive Design](assets/readme-images/disney-food-guide-responsive-display.png)
 
-## Gitpod Reminders
+# Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [**User Experience UX**](<#user-experience-ux>)
+    * [User Stories](<#user-stories>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    * [Typography](<#typography>)
+    * [Colour Scheme](<#colour-scheme>)
+* [**Features**](<#features>)
+    * [**Home**](<#home>)
+         * [Navigation menu](<#navigation-menu>)
+         * [Main Header](<#main-header>)
+         * [Introduction](<#introduction>)
+         * [Mailing List](<#mailing-list>)
+         * [Footer](<#footer>)
+    * [**Restaurants**](<#restaurants>)
+         * [Header](<#restaurant-header>)
+         * [Restaurant Listings](<#restaurant-listings>)
+         * [Footer](<#footer>)
+    * [**Snacks**](<#snacks>)
+         * [Header](<#snacks-header>)
+         * [Snack Listings](<#snack-listings>)
+    * [**Drinks**](<#drinks>)
+         * [Header](<#drinks-header>)
+         * [Drink Listings](<#drink-listings>)
+    * [**Contact**](<#contact-us>)
+         * [Contact Background](<#contact-background>)
+         * [Contact Form](<#contact-form>)
+    * [**Form Submission Confirmation**](<#form-submission-confirmation>)
+    * [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
 
-`python3 -m http.server`
+# User Experience UX
 
-A blue button should appear to click: _Make Public_,
+## User Stories
 
-Another blue button should appear to click: _Open Browser_.
+* As a user I want to be able to fully understand the purpose of Disney Food Guide from the main page.
+* As a user I want the navigation to be intuitive and easy to understand, with a clear purpose and easy access to information.
+* As a user I want to be able to see simple and organised lists with names, prices, descriptions and pictures of each item.
+* As a user I want easy links that can lead me off page in a different tab to view the full menu and map locations of each item when applicable. 
+* As a user I want to be able to sign up to a mailing list to receive further information and updates from Disney Food Guide direct to my email mailbox.
+* As a user I want to be able to contact Disney Food Guide and share my own personal experience at Disney World with pictures if applicable.
+* As a user I want to be able to connect with Disney Food Guide through various social media sites quickly and easily.
+* As a user I want to see the top recommended restaurants, food and drink and Disney World. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Back to top](<#contents>)
 
-A blue button should appear to click: _Make Public_,
+## Wireframes 
 
-Another blue button should appear to click: _Open Browser_.
+The project templates and wireframes for Disney Food Guide were designed using [Balsamiq](https://balsamiq.com). The designs vary from the end layout in some places due to creative decisions made throughout the development process.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Wireframe image for home page](assets/readme-images/balsamiq-home-page.png)
 
-To log into the Heroku toolbelt CLI:
+![Wireframe image for restaurants page](assets/readme-images/balsamiq-restaurants.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Wireframe image for snacks page](assets/readme-images/balsamiq-snacks.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Wireframe image for drinks page](assets/readme-images/balsamiq-drinks.png)
 
-------
+![Wireframe image for contact page](assets/readme-images/balsamiq-contact.png)
 
-## Release History
+[Back to top](<#contents>)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Site Structure 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Disney Food Guide has five pages freely accessable by using the on site navigation. These pages are the [home page](index.html), which is the default loading page, [restaurants](restaurants.html), [snacks](snacks.html), [drinks](drinks.html) and [contact](contact.html). There is one other page which is viewed in response to the contact form submission, that page is [thanks](thanks.html) but this page isn't accessable via the normal site navigation. The navigation bar is present on every page of the website. This nav is replaced by a mobile sticky nav on smaller devices which follows the screen when the user continues down the pages. All three pages which feature the listed items are quite long so a back to the top link was added to the footer of the pages to make navigation back to the top easier. These links disappear on smaller devices as the nav bar is always visible. The logo at the top left of the nav bar can also be used as a link to the home page. There is also a scroll down clickable link box on the home page main header image which provides a visual queue for the user to scroll down to view the welcome text as the main header takes up the entire page. When clicked this box scrolls the view down to the lower section. This box disappears on smaller devices. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+[Back to top](<#contents>)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Design Choices 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* ### Typography 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The font family chosen for Disney Food Guide was Montserrat, with a backup font of sans-serif. This font family was used for all text across the site. It was chosen for its professional yet playful feel which is easy to read. It matched well with the lighthearted tone of the content whilst still remaining formal enough to not look unprofessional. The font was selected from [Google Fonts](https://fonts.google.com/). To cut down on load times only font weights of 300 and 400 were chosen. The font was imported using a link in [the CSS document](assets/css/style.css).
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* ### Colour Scheme 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The colour scheme used was a variation on the classic Disney colour scheme. Mostly a combination of whites, pinks, blacks and orange yellows with varying degrees of transparency to provide different shades. The text colour is a dark grey so as not to appear to dark. Social media icons transition to their signature colours when hovered over. The light colours throughout the site help to generate a soft and welcoming atmosphere. Orange is a colour of optimism, freedom and youth. Pink is a calm, soft and creative colour. Yellow is a colour often associated with fun, happiness, joy and positivity. Together these colours capture the youthful spirit of Disney. A blue background image is used for the contact page as blue is a colour of trust, confidence and purpose. This may help generate more confidence and trust in the user to submit their details. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Disney classic colour scheme](assets/readme-images/disney-colour-scheme.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+[Back to top](<#contents>)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Disney Food Guide is designed to make accessing information as easy for the user as possible. There are many user friendly features which are formatted and styled in accordance with best practice. Users will be familiar with the layout and flow of the site as it doesn't stray too far from the expected norm. Friendly and lighthearted content encourages exploration throughout the website. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Existing Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Home
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* ### Navigation Menu 
 
-------
+* ### Main Header
 
-## FAQ about the uptime script
+* ### Introduction
 
-**Why have you added this script?**
+* ### Mailing List
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* ### Footer
 
-**How will this affect me?**
+### Restaurants
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* ### Restaurant Header
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* ### Restaurant Listings
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* ### Footer
 
-**So….?**
+### Snacks
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* ### Snacks Header
 
-**Can I opt out?**
+* ### Snack Listings
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Drinks
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* ### Drinks Header
 
-**Anything more?**
+* ### Drink Listings
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Contact
 
----
+* ### Contact Background
 
-Happy coding!
+* ### Contact Form
+
+### Form Submission Confirmation
+
+### Future Features
+
