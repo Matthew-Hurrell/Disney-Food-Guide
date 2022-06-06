@@ -946,6 +946,7 @@ input[type="date"] {
     #submit-phone {
         display: block;
         font-size: 0.9rem;
+        font-weight: 300;
     }
 
     input::placeholder {
@@ -1103,15 +1104,6 @@ input[type="date"] {
         border-radius: 10px;
         background-color: rgb(243, 205, 100);
         border:rgb(52, 52, 52) 1px solid;
-    }
-
-    .submit-button:hover {
-        font-size: 0.9rem;
-        color:rgb(52, 52, 52);
-        padding: 8px;
-        border-radius: 10px;
-        background-color: rgb(243, 205, 100);
-        border:rgb(52, 52, 52) 1px solid;
         font-weight: 300;
     }
 
@@ -1128,7 +1120,7 @@ input[type="date"] {
         padding: 8px 0;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: 75px;
     }
 
@@ -1140,20 +1132,13 @@ input[type="date"] {
         height: 330px;
     }
 
-    .restaurant-info-buttons > form > input:hover {
-        color:rgb(52, 52, 52);
-        padding: 8px;
-        border-radius: 10px;
-        background-color: rgb(243, 205, 100);
-        border:rgb(52, 52, 52) 1px solid;
-    }
-
     .restaurant-info-buttons > form > input {
         color:rgb(52, 52, 52);
         padding: 8px;
         border-radius: 10px;
         background-color: rgb(243, 205, 100);
         border:rgb(52, 52, 52) 1px solid;
+        font-weight: 300;
     }
 
 }
