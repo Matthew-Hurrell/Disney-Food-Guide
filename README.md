@@ -153,6 +153,8 @@ The footer element is present at the bottom of every page other than the contact
 
 ![Landing page footer](assets/readme-images/footer.png)
 
+[Back to top](<#contents>)
+
 ### Restaurants
 
 The restaurants page is accessible via the main navigation menu and it's intended purpose is to provide the user with information about the top ten restaurants in Disney World in 2022 in a clear and easy to understand format. 
@@ -179,6 +181,8 @@ The restaurant footer is styled almost exactly the same as the main footer on th
 
 ![Restaurant footer](assets/readme-images/restaurant-footer.png)
 
+[Back to top](<#contents>)
+
 ### Snacks
 
 The snacks page is again accessible via the main navigation menu. Its purpose is very similar to the restaurants page except it is providing information on the top ten snacks at Disney World in 2022. Information needs to be arranged in a clear to understand way and styled similarly to the previous pages. 
@@ -197,6 +201,8 @@ The snacks header is styled very similarly to the restaurant header except the d
 
 The main section of the snacks page is made up of the snack listings. This section comprises of ten individual listings of the top snacks at Disney World in 2022. The same reusable CSS classes from the restaurant listings are used in this section to uniformly order the images and information in a style that will now be familiar to the user. Some information used for the restaurants is inapplicable to the snacks and is removed. Snacks are normally available via couter service throughout the parks and are therefore not available for table bookings, so the booking link button was removed. The dining type was also removed as it is not relevant to the individual items. Icons and colour schemes remain consistent with the other pages of the site. Location and menu links for each item open in a new tab. The images and information shrink on smaller screen sizes and then stack ontop of each other in singular columns using flex-direction column. Images are kept uniform throughout with a clear front shot of each snack item per listing. 
 
+[Back to top](<#contents>)
+
 ### Drinks
 
 The drinks page is accessible via the main navigation menu. It's purpose is to define and showcase the top ten drinks at Disney World in 2022. Information is layed out in a format which is very consistent with the other pages in the site. Information should be clear and accurate, and the page should be easy to navigate. 
@@ -213,11 +219,15 @@ The styling for the drinks header is consistent with the previous pages. The h1 
 
 * ### Drink Listings
 
-The main section of the drinks page is comprised of the drink listings. This section comprises of ten individual listings of the top drinks at Disney World in 2022. This section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages. A alcoholic / non-alcoholic catagory was added to the drinks listings with a matching martini glass icon as this is a useful piece of information for users who have kids or wish to avoid alcohol. The buttons to book a table and view the menu are displayed and removed from each listing when applicable. Some drinks are only available at kiosks and consequently do not have table reservations. All buttons and location links open in a new tab. The pictures are high quality and of a similar styling to the snack images. Flexbox is used to evenly space content. As with the other pages, the listings are responsive and stack when viewed on smaller screen sizes.  
+The main section of the drinks page is comprised of the drink listings. This section is comprised of ten individual listings of the top drinks at Disney World in 2022. The section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages. A alcoholic / non-alcoholic catagory was added to the drinks listings with a matching martini glass icon as this is a useful piece of information for users who have kids or wish to avoid alcohol. The buttons to book a table and view the menu are displayed and removed from each listing when applicable. Some drinks are only available at kiosks and consequently do not have table reservations. All buttons and location links open in a new tab. The pictures are high quality and of a similar styling to the snack images. Flexbox is used to evenly space content. As with the other pages, the listings are responsive and stack when viewed on smaller screen sizes.  
 
 ![Drinks listings](assets/readme-images/drinks-listings.png)
 
+[Back to top](<#contents>)
+
 ### Contact
+
+The purpose of the contact page is to provide a clear to understand and easily accessable form of contact that the user can use to submit details of their own experience at Disney World. This can also help keep information up to date on the website. The page needs to look welcoming and trustworthy to encourage the user to submit their information. This page is accessible via the navigation menu.
 
 Link to live site - [Contact](https://matthew-hurrell.github.io/Disney-Food-Guide/contact.html)
 
@@ -225,13 +235,63 @@ Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blo
 
 * ### Contact Background
 
+The contact page is a simple one form page with a centralised form and a background image covering the entire length and width of the screen. The background image dimensions are defined with vh and vw so they line up with the outer dimensions of the screen on any screen size. The background image is a simple disney themed cloud with a blue colour sky. The image is simple enough not to distract from the form content. The footer is removed from display on the contact page, however there is a linear gradient applied to the bottom of the background image which fades into the colour used for the footer throughout the rest of the site. This helps bring some consistency to the colour scheme in comparison to the other pages in the site.
+
+![Contact background](assets/readme-images/contact-background.png)
+
 * ### Contact Form
 
+The form on the contact page is centered in the middle of the screen using flexbox. The background is a transparent white box with a dotted 1px black border which helps provide some clarity of text over the background image. The form features a h2 title prompting the user to submit their information and details about their disney trip. There is a heart icon in the title to encourage positive interaction. The form inputs are split into two columns on larger screens but stack into one column using flexbox on smaller screens. The user has six different inputs for information and data in the form. First name, last name, email address and the description of your trip box are all required inputs, the form will not accept the data without all of them being correctly filled out. Date of trip and the photo attachment inputs are both optional as the user may not remember a date and/or may not have a photo. The form is similarly styled to the mailing list form on the main landing page of the site. Inputs have border radius rounded edges and the same placeholders as the mailing list form. When the form is submitted the user is directed to the thanks.html page which is styled exactly the same way but with a thank you message instead of the form. This is the only way to access the thanks.html page.
+
+![Contact form](assets/readme-images/contact-form.png)
+
 ### Form Submission Confirmation
+
+The purpose of the form submission / thank you page is to show the user that their form submission has been successfully received. The page should also allow and promote easy navigation away from the page onto another page of the site without the user needing to use the back button on the browser. This page is not accessible via the navigation menu and is hidden until the user submits the contact form. The styling and layout is exactly the same as the contact form page except the form is now removed and replaced with a thank you for your feedback message with similar styling to the form. Contact is still underlined in the navigation bar, which suggests to the user that they are still on the same page. There is also a smily face icon next to the thank you message.
 
 Link to live site - [Thanks](https://matthew-hurrell.github.io/Disney-Food-Guide/thanks.html)
 
 Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blob/main/thanks.html)
 
-### Future Features
+![Thank you form submission page](assets/readme-images/thank-you-page.png)
+
+[Back to top](<#contents>)
+
+## Future Features
+
+Disney Food Guide has many potential avenues for expansion. Here are some ideas that could further build upon the site.
+
+* A full blog could be added to the landing page or a seperate blog page. It would be a good place to keep users informed with the latest news and updates about the park and dining options. Further information like articles and videos could be displayed here.
+* An e-commerce element could be introduced with the ability for the user to pay a small fee to download a full digital pdf dining guide. 
+* Image elements within the lists could be further expanded by adding more images to each item to make a slideshow which the user can browse through. Video could also be included in the slideshow.
+* A video guide for each category could be imbedded in the header of each page so the user can click and watch the video guide if they prefer this to reading the guide.
+* The site requires an update at least once a year to showcase the new food and drink available at Disney World. Previous lists could be archived and available to view on a seperate page.  
+
+[Back to top](<#contents>)
+
+# Technologies Used
+
+* HTML5 - Provides the structure of the site information, elements and website content. 
+* CSS3 - Provides the styling of the HTML content.
+* Balsamiq - Wireframing software used to plan and design website templates.
+* GitPod - An open source developer platform for remote development. Used to edit and build the website.
+* GitHub - An online host for web and software development projects. Used to store the repository and deploy the finished website.
+* Affinity Photo - A photo editing app available through the apple store used to design and create graphics for the site.
+* Apple Notes - A simple apple app used to write and plan copy and content for the website.
+* Slack - An online messaging program designed for workplace collaboration. Used for advice and guidance from peers. 
+
+[Back to top](<#contents>)
+
+# Testing 
+
+# Deployment
+
+# Credits
+
+## Content
+
+## Media
+
+# Acknowledgements
+
 
