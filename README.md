@@ -1,7 +1,7 @@
 # **_Disney Food Guide_**
 
 Disney Food Guide is an online guide which provides a user with easy to follow information about the top rated food, snacks and restaurants in Disney World in 2022. 
-The sites intended target audience is anyone interested in visiting Disney World or finding out more information. This could be anyone teen and above, male or female. However the majority of the target audience will most likely be young adults or middle aged parents with kids. 
+The sites intended target audience is anyone interested in visiting Disney World or finding out more information about the food and dining options. This could be anyone teen and above, male or female. However the majority of the target audience will most likely be young adults or middle aged parents with kids. 
 The website is also designed to provide easy navigation to book a table, view the offical menu or find the location of a specific item / restaurant. 
 
 Link to the live site - <a href="https://matthew-hurrell.github.io/Disney-Food-Guide/" target="_blank" rel="noopener">Disney Food Guide</a>
@@ -169,7 +169,7 @@ The header for the restaurant page features a cropped version of the background 
 
 * ### Restaurant Listings
 
-This is the main section of the restaurant page. It features ten individual restaurant listings each with a large internal picture, a name, location, dining type, price range and summary. Each listing has a button link to a menu and table booking which opens in a new tab. The location is also a link which opens a new tab to an online virtual map pinpointing the location of the restaurant. On larger screens each listing is laid out in two columns. Each listing alternates between image left and image right to give a balanced flow to the page. Each listing information section features a h2 title with the name of the restaurant at the top. The location, dining type, price range and summary then follow beneath with corresponding icons to easily define the purpose of each piece of information to the user in a clear way. Link buttons are displayed beneath the summary paragraph and feature a similar styling to other buttons throughout the site. Summary paragraph content is kept short to avoid large blocks of text. Each alternate listing features a faint change of background colours to define the different sections whilst not distracting from the content. The text is spaced using flexbox and each listing is also centered in columns using flexbox. As the screen size decreases the content shrinks before stacking ontop as singular columns using the flexbox feature flex-direction column. To reduce the amount of code and to provide a uniform appearance throughout the site, the styling of the listings is recorded using CSS classes for reusable styling throughout the page and in the drinks and snacks pages. Two main classes are used to style all the following listings. Content is spaced out to avoid clutter and to display information in a pleasant and easy to understand way. 
+This is the main section of the restaurant page. It features ten individual restaurant listings each with a large internal picture, a name, location, dining type, price range and summary. Each listing has a button link to a menu and table booking which opens in a new tab. The location is also a link which opens a new tab to an online virtual map pinpointing the location of the restaurant. On larger screens each listing is laid out in two columns. Each listing alternates between image left and image right to give a balanced flow to the page. Each listing information section features a h2 title with the name of the restaurant at the top. The location, dining type, price range and summary then follow beneath with corresponding icons to easily define the purpose of each piece of information to the user in a clear way. Link buttons are displayed beneath the summary paragraph and feature a similar styling to other buttons throughout the site. Summary paragraph content is kept short to avoid large blocks of text. Each alternate listing features a faint change of background colours to define the different sections whilst not distracting from the content. The text is spaced using flexbox and each listing is also centered in columns using flexbox. As the screen size decreases the content shrinks before stacking ontop as singular columns using the flexbox feature flex-direction column. To reduce the amount of code and to provide a uniform appearance throughout the site, the styling of the listings is recorded using CSS classes for reusable styling throughout the page and in the drinks and snacks pages. Two main classes are used to style all the following listings. Content is spaced out to avoid clutter and to display information in a pleasant and easy to understand way.
 
 ![Restaurant listings](assets/readme-images/restaurant-listings.png)
 
@@ -189,9 +189,17 @@ Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blo
 
 * ### Snacks Header
 
+The snacks header is styled very similarly to the restaurant header except the difference in title content to showcase the subject and purpose of the page to the user in a clear and defined way.
+
+![Snacks header](assets/readme-images/snacks-header.png)
+
 * ### Snack Listings
 
+The main section of the snacks page is made up of the snack listings. This section comprises of ten individual listings of the top snacks at Disney World in 2022. The same reusable CSS classes from the restaurant listings are used in this section to uniformly order the images and information in a style that will now be familiar to the user. Some information used for the restaurants is inapplicable to the snacks and is removed. Snacks are normally available via couter service throughout the parks and are therefore not available for table bookings, so the booking link button was removed. The dining type was also removed as it is not relevant to the individual items. Icons and colour schemes remain consistent with the other pages of the site. Location and menu links for each item open in a new tab. The images and information shrink on smaller screen sizes and then stack ontop of each other in singular columns using flex-direction column. Images are kept uniform throughout with a clear front shot of each snack item per listing. 
+
 ### Drinks
+
+The drinks page is accessible via the main navigation menu. It's purpose is to define and showcase the top ten drinks at Disney World in 2022. Information is layed out in a format which is very consistent with the other pages in the site. Information should be clear and accurate, and the page should be easy to navigate. 
 
 Link to live site - [Drinks](https://matthew-hurrell.github.io/Disney-Food-Guide/drinks.html)
 
@@ -199,7 +207,15 @@ Link to code - [GitHub](https://github.com/Matthew-Hurrell/Disney-Food-Guide/blo
 
 * ### Drinks Header
 
+The styling for the drinks header is consistent with the previous pages. The h1 title is different to clearly display the subject of the content of the page to the user. 
+
+![Drinks header](assets/readme-images/drinks-header.png)
+
 * ### Drink Listings
+
+The main section of the drinks page is comprised of the drink listings. This section comprises of ten individual listings of the top drinks at Disney World in 2022. This section uses the same reusable CSS classes from the previous pages to make the information styling consistent with previous pages. A alcoholic / non-alcoholic catagory was added to the drinks listings with a matching martini glass icon as this is a useful piece of information for users who have kids or wish to avoid alcohol. The buttons to book a table and view the menu are displayed and removed from each listing when applicable. Some drinks are only available at kiosks and consequently do not have table reservations. All buttons and location links open in a new tab. The pictures are high quality and of a similar styling to the snack images. Flexbox is used to evenly space content. As with the other pages, the listings are responsive and stack when viewed on smaller screen sizes.  
+
+![Drinks listings](assets/readme-images/drinks-listings.png)
 
 ### Contact
 
