@@ -449,6 +449,7 @@ This section will credit the sources of content and media for Disney Food Guide.
 * Content and information was collated from [The Official Disney Website](https://www.disneyworld.co.uk/) and [Disney Food Blog](https://www.disneyfoodblog.com/).
 * The Disney Food Guide colour palate was inspired by [Scheme Colour Classic Disney Colour Scheme](https://www.schemecolor.com/classic-disney.php)
 * A tutorial on how to build a reponsive mobile nav menu with CSS and no Javascript was found at [Log Rocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/).
+* General minor HTML and CSS code tutorials and resources were found at [MDN](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/). 
 
 ## Media
 
