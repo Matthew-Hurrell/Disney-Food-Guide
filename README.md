@@ -1,8 +1,8 @@
 # **_Disney Food Guide_**
 
-Disney Food Guide is an online guide which provides a user with easy to follow information about the top rated food, snacks and restaurants in Disney World in 2022. 
-The sites intended target audience is anyone interested in visiting Disney World or finding out more information about the food and dining options. This could be anyone teen and above, male or female. However the majority of the target audience will most likely be young adults or middle aged parents with kids. 
-The website is also designed to provide easy navigation to book a table, view the offical menu or find the location of a specific item / restaurant. 
+Disney Food Guide is an online guide which provides the user with easy to follow information about the top rated food, snacks and restaurants at Disney World in 2022. 
+The target audience is anyone interested in visiting Disney World or finding out more information about the food and dining options. This could be anyone teen and above, male or female. It is expected that the majority of the target audience will most likely be young adults or middle aged parents with kids. 
+The goal of this website is to be a comprehensive but concise guide to the best restaurants, snacks and drinks at Disney World in 2022. Information needs to be correct, fully up to date and displayed in a intuitive and user friendly way. The website will also feature clickable links to external websites to enable the user to easily book a table, view the full menu or find the location of the specific item / restaurant.
 
 Link to the live site - [Disney Food Guide](https://matthew-hurrell.github.io/Disney-Food-Guide/)
 
