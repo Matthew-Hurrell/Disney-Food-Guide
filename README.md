@@ -41,7 +41,15 @@ Link to the live site - [Disney Food Guide](https://matthew-hurrell.github.io/Di
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
+     * [**Validator Tests**](<#validator-tests>)
+     * [**Responsiveness Tests**](<#responsiveness-tests>)
+     * [**Lighthouse Tests**](<#lighthouse-tests>)
+     * [**Browser Tests**](<#browser-tests>)
+     * [**Bugs**](<#bugs>)
 * [**Deployment**](<#deployment>)
+     * [**Project Deployment Via GitHub**](<#project-deployment-via-github>)
+     * [**How to Fork a Repository Via GitHub**](<#how-to-fork-a-repository-via-github>)  
+     * [**How to Create a Local Clone of a Project**](<#how-to-create-a-local-clone-of-a-project>)   
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
     * [**Media**](<#media>)
@@ -450,6 +458,8 @@ This section will credit the sources of content and media for Disney Food Guide.
 * Menu buttons link to menus found on [The Official Disney Website](https://www.disneyworld.co.uk/).
 * Dining reservation buttons link to [Mouse Watcher](https://mousewatcher.com/).
 * The contact page background image was found at [Wall Papers Den](https://wallpapersden.com/disney-the-imagineering-story-wallpaper/1336x768/).
+
+[Back to top](<#contents>)
 
 # Acknowledgements
 
