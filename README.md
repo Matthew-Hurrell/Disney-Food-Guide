@@ -265,7 +265,8 @@ Disney Food Guide has many potential avenues for expansion. Here are some ideas 
 * An e-commerce element could be introduced with the ability for the user to pay a small fee to download a full digital pdf dining guide. 
 * Image elements within the lists could be further expanded by adding more images to each item to make a slideshow which the user can browse through. Video could also be included in the slideshow.
 * A video guide for each category could be imbedded in the header of each page so the user can click and watch the video guide if they prefer this to reading the guide.
-* The site requires an update at least once a year to showcase the new food and drink available at Disney World. Previous lists could be archived and available to view on a seperate page.  
+* The site requires an update at least once a year to showcase the new food and drink available at Disney World. Previous lists could be archived and available to view on a seperate page. 
+* Embedded maps for each listing that don't require navigation off page would be a good feature to make finding the location easier and more user friendly. 
 
 [Back to top](<#contents>)
 
@@ -276,6 +277,7 @@ Disney Food Guide has many potential avenues for expansion. Here are some ideas 
 * Balsamiq - Wireframing software used to plan and design website templates.
 * GitPod - An open source developer platform for remote development. Used to edit and build the website.
 * GitHub - An online host for web and software development projects. Used to store the repository and deploy the finished website.
+* Git - Software for tracking changes to files. Used with GitPod to add, commit and push code changes to the repository on GitHub. 
 * Affinity Photo - A photo editing app available through the apple store used to design and create graphics for the site.
 * Apple Notes - A simple apple app used to write and plan copy and content for the website.
 * Slack - An online messaging program designed for workplace collaboration. Used for advice and guidance from peers. 
@@ -316,11 +318,15 @@ Disney Food Guide has been tested extensively. All the code for every file and p
 
 ![Home page html validation](assets/readme-images/style.css-validation.png)
 
+[Back to top](<#contents>)
+
 ## Responsiveness Tests
 
 Disney Food Guide was tested thoroughly for responsiveness through multiple software applications and online resources. Most of the testing was done manually through [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) using the multiple preset device dimensions in the toolbar. Once the site layout was flowing on every screen size further testing was done using [Am I Responsive](https://ui.dev/amiresponsive) and [Responsive Design Checker](https://responsivedesignchecker.com/). Once the site was deployed on GitHub the link was also used to view the pages on multiple physical devices such as an Apple iPad, Apple iPhone 6, Samsung Galaxy and Apple MacBook Pro.
 
 ![Disney Food Guide Responsive Design](assets/readme-images/disney-food-guide-responsive-display.png)
+
+[Back to top](<#contents>)
 
 ## Lighthouse Tests
 
@@ -346,27 +352,111 @@ Disney Food Guide was also tested through [Chrome Dev Tools - Lighthouse](https:
 
 ![Contact lighthouse test](assets/readme-images/lighthouse-contact.png)
 
+[Back to top](<#contents>)
+
 ## Browser Tests
 
+Disney Food Guide was tested on a multitude of different browsers to check for any errors or issues. These browsers include Google Chrome, Safari and Firefox. There were no visible errors in appearance or functionality. Responsivity was also consistent. 
 
+[Back to top](<#contents>)
 
 ## Bugs
 
-Shortcomings of frameworks and technologies.
+Bugs are an inevitable part of development. Although Disney Food Guide is a relatively simple site with limited languages, there were still some bugs that occurred throughout the process. The project was built from vanilla HTML and CSS with no use of frameworks and this has its shortcomings. The lack of javascript limits functionality and interactivity of the site.
 
 * ### Resolved 
 
+* The first time the HTML code was submitted to W3C HTML testing it produced one main error. The testing program flagged some extra i closing tags from an icon that had been removed. This wasn't an obvious mistake as it wasn't showing up on the site or causing any problems with the display. Because the majority of the HTML was copied between pages, these bugs flagged up on the other pages too. They were simply identified and deleted within the HTML to resolve the problem. 
+
+* When the site was first tested by Google Chrome's Lighthouse tester it flagged that the images files across the site were much too large, which was slowing down loading times. Performance was only measuring at an average of 70%. The first attempt to solve this problem was made by installing the app ImgBot through GitHub. This small program automatically scans repositories for large images and compresses them to optimize loading times. The changes are then committed to a new branch and then merged with the original file. Unfortunately results were varied and didn't make much difference to the loading times. The second attempt involved manually editing the image sizes and type via apple preview. The new image files were then re-uploaded and the older image files were overwritten. This process was time consuming but it did result in drastically reduced loading times and an average lighthouse performance rating of greater than 90% across all pages. 
+
+* When the scrolling clickable links at the bottom of each page and on the main landing page were first added the screen was not scrolling smoothly, it was returning to the destination instantly and it wasn't a good user experience. Normally scroll behaviour can be edited using javascript but because the project was limited to vanilla HTML and CSS this was not an option. This problem was quite easily resolved with adding the CSS property scroll-behaviour: smooth to the * selector (All elements).
+
+* The more difficult part of the project was adding a responsive mobile nav without using javascript. Most online tutorials use javascript to help the functionality of a responsive nav. Originally basic javascript was implimented to try and create the nav bar, but when this method failed another solution needed to be found. Peers on slack recommended an online tutorial about building a responsive nav bar with just CSS and HTML. This method uses a hidden checkbox to toggle the menu opening and closing. The solution was to hide the checkbox from view but still have its functionality present when clicked by a user. The checkbox is then overlayed with a menu icon which then appears to the user to function as a menu button. This solution worked and was implemented into the latest version of the site. 
+
 * ### Unresolved
 
+As stated, using just HTML and CSS to create a website has its shortcomings. Unfortunately without knowledge or use of other languages, both contact forms on Disney Food Guide have no functionality. Although they seem to accept data they do not currently collect or send the data to any backend database. This is an issue that can only be resolved with more knowledge of back end languages. 
+
+Another unresolved issue is the slight differences in feature styling on some devices. Buttons were smaller and text was a different weight on certain apple devices. A reason for these differences was not found, but the differences were minor and did not detract from the overall user experience. 
+
+[Back to top](<#contents>)
 
 # Deployment
 
+## Project Deployment via GitHub
+
+The Disney Food Guide repository is stored on GitHub. The site was created using GitPod and the live site is hosted on GitHub Pages. This is a guide to deploy a site on GitHub Pages using GitHub. 
+
+1. Sign in to GitHub and find the repository in the repositories menu. 
+2. Click to open the repository and click on the settings icon to open the settings menu for the repository.
+3. In the settings menu, click on the pages tab on the left side of the screen.
+4. Under source, select branch:main, leave the folder on root and click save. 
+5. The page will then automatically refresh and provide a link to the published site when it has finished processing. 
+
+![Github Deployment](assets/readme-images/github-deployment.png)
+
+When the site is live, a link to the site can also be found by navigating back to the repository and clicking on the github-pages link under the Environments title menu on the far right side. 
+
+![Github Environment](assets/readme-images/github-deployment-enviroment.png)
+
+The live link for Disney Food Guide can be found here - [Disney Food Guide](https://matthew-hurrell.github.io/Disney-Food-Guide/)
+
+[Back to top](<#contents>)
+
+## How to fork a repository via GitHub
+
+A copy of a local GitHub repository can be made by forking the GitHub repository. The purpose of this is to allow changes to be made to the copy without affecting the original repository. This is a guide to fork a repository on GitHub.
+
+1. Sign in to GitHub, locate the repository and click to open the repository. 
+2. On the right hand side of the repository menu there is a button called fork. Click the button to make a copy of the repository into your GitHub account. 
+
+![Github Forking](assets/readme-images/github-forking.png)
+
+[Back to top](<#contents>)
+
+## How to create a local clone of a project
+
+This is a guide on how to clone a repository from GitHub. 
+
+1. Sign in to GitHub, locate the repository and click to open the repository.
+2. On the repository main page, click the code button above where the files are located. This will open a drop down menu.
+3. In the dropdown menu stay on the HTTPS option and click the copy icon button next to the URL to copy it. 
+4. Now minimise/close your browser and open your local IDE, e.g Visual Studio Code or Brackets.
+5. Open Git Bash and change the current working directory to the file location you want the cloned directory to be made in.
+6. Type git clone into the command line and then paste the URL copied from GitHub.
+7. Press enter and the local repository clone will be created.
+
+![Github Cloning](assets/readme-images/github-clone.png)
+
+[Back to top](<#contents>)
+
 # Credits
+
+This section will credit the sources of content and media for Disney Food Guide. 
 
 ## Content
 
+* Fonts were imported from [Google Fonts](https://fonts.google.com/).
+* Icons were imported from [Font Awesome](https://fontawesome.com/).
+* Content and information was collated from [The Official Disney Website](https://www.disneyworld.co.uk/) and [Disney Food Blog](https://www.disneyfoodblog.com/).
+* The Disney Food Guide colour palate was inspired by [Scheme Colour Classic Disney Colour Scheme](https://www.schemecolor.com/classic-disney.php)
+* A tutorial on how to build a reponsive mobile nav menu with CSS and no Javascript was found at [Log Rocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/).
+
 ## Media
 
+* Images and graphics were used from [The Official Disney Website](https://www.disneyworld.co.uk/) and [Disney Food Blog](https://www.disneyfoodblog.com/).
+* Map buttons link to maps found on [The Official Disney Website](https://www.disneyworld.co.uk/).
+* Menu buttons link to menus found on [The Official Disney Website](https://www.disneyworld.co.uk/).
+* Dining reservation buttons link to [Mouse Watcher](https://mousewatcher.com/).
+* The contact page background image was found at [Wall Papers Den](https://wallpapersden.com/disney-the-imagineering-story-wallpaper/1336x768/).
+
 # Acknowledgements
+
+Disney Food Guide was created as a portfolio 1 project for [Code Insitute](https://codeinstitute.net/), the first of five projects of a Higher Diploma in Full Stack Software Development. I would like to take a moment to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for all his help and encouragement throughout the development process. I would also like to thank the Slack Community, especially Jim Morel the community executive, for his advice about building a responsive nav using CSS when I was rather lost! I'd like to thank my peers in the May 2022 class at Code Insitute for their feedback and support and also the tutors and student care team at Code Institute. Thank you all for helping me on my journey to becoming a better developer. 
+
+Matthew Hobbs-Hurrell
+
+
 
 
