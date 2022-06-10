@@ -281,15 +281,15 @@ Disney Food Guide has many potential avenues for expansion and improvement. Here
 
 # Technologies Used
 
-* HTML5 - Provides the structure of the site information, elements and website content. 
-* CSS3 - Provides the styling of the HTML content.
-* Balsamiq - Wireframing software used to plan and design website templates.
-* GitPod - An open source developer platform for remote development. Used to edit and build the website.
-* GitHub - An online host for web and software development projects. Used to store the repository and deploy the finished website.
-* Git - Software for tracking changes to files. Used with GitPod to add, commit and push code changes to the repository on GitHub. 
-* Affinity Photo - A photo editing app available through the Apple store used to design and create graphics for the site.
-* Apple Notes - A simple Apple app used to write and plan copy and content for the website.
-* Slack - An online messaging program designed for workplace collaboration. Used for advice and guidance from peers and tutors. 
+* [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - Provides the structure of the site information, elements and website content. 
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Provides the styling of the HTML content.
+* [Balsamiq](https://balsamiq.com/) - Wireframing software used to plan and design website templates.
+* [GitPod](https://gitpod.io/) - An open source developer platform for remote development. Used to edit and build the website.
+* [GitHub](https://github.com/) - An online host for web and software development projects. Used to store the repository and deploy the finished website.
+* [Git](https://git-scm.com/) - Software for tracking changes to files. Used with GitPod to add, commit and push code changes to the repository on GitHub. 
+* [Affinity Photo](https://affinity.serif.com/en-gb/photo/) - A photo editing app available through the Apple store used to design and create graphics for the site.
+* [Apple Notes](https://www.icloud.com/notes) - A simple Apple app used to write and plan copy and content for the website.
+* [Slack](https://www.icloud.com/notes) - An online messaging program designed for workplace collaboration. Used for advice and guidance from peers and tutors. 
 
 [Back to top](<#contents>)
 
